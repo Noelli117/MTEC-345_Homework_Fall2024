@@ -2,13 +2,6 @@
 
 
 
-
-  
-
-  
-
-  
-
 # Song One Mantra  by DJSwami 
 
 - drone which was used to generate ambient drones. *AI Test Kitchen MusicFX*
@@ -22,23 +15,6 @@
 
 - Use Obsidian to create a markdown file.
   
-
-### Data Preprocessing:
-
--  Access MIDI Files: Collect MIDI files from classical compositions.
-
--  Convert MIDI Files to Images: Use music21 to transform MIDI data into images representing note sequences. Images are resized to a uniform shape (106x106) for easier processing.
-
-### Construct Dataset:
-
--  Extract Image Data: Convert images into numerical arrays and prepare them for model training.
-
--  Split Sequences: Create input-output pairs where inputs consist of sequences of notes and outputs are the following notes.
-
-### Build the ConvLSTM Model:
-
--  The architecture includes TimeDistributed layers with Conv1D, MaxPooling1D, LSTM layers, and a final Dense layer. The model is trained with MSE (Mean Squared Error) loss function.
-
 ### Some idea about draft idea for project: 
 
 **Idea 1: Application to Learn CC11 and CC1 from User Behavior**  
@@ -49,6 +25,3 @@ This concept involves building a comprehensive MIDI collection, featuring variou
 
 **Idea 3: Creating Variations in Film Scoring Using One Motion**  
 This idea focuses on creating multiple variations of a single musical motion (or motif) by altering tempo and time signatures. The goal is to apply one musical idea to different scenes in a film by adjusting the tempo (speeding up or slowing down) and changing the measure (e.g., from 4/4 to 3/4). This approach would give the same musical motion a unique feel and emotional impact in different contexts, making it a versatile tool for film scoring.
-
-
-
