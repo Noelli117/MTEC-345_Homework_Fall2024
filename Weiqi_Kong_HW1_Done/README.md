@@ -12,7 +12,7 @@
         - Have a trouble to combine Cursor with xcode/ VS studio. 
         - How to solve: 
                 
-
+- terminal access Git
 - Use Obsidian to create a markdown file.
   
 ### Some idea about draft idea for project: 
